@@ -1,2 +1,3 @@
-# SnakeGame
-hxvvsv
+# GuessGame
+A random generator based on your guess.
+
