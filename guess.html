@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guessing name</title>
+    <link rel="stylesheet" href="guess.css">
+</head>
+<body>
+    <div class="guessbox">
+<h4 id="p1">Let's play the game of guessing game..</h4>
+<h5 id="p2">Pick the nummber from 1 to 10..</h5>
+
+<label for="guess" id="p3">Gusee The Number</label>
+<input id="guessn" name="guess" placeholder="Enter the number...">
+<button id="bn"   onclick="checkscore(); document.querySelector('#guessn').value=' '">guess</button>
+<div id="s1">
+    <p id="msg"></p>
+<label for="reman"><b>Remaining chances: </b></label>
+<input id="remn" readonly>
+</div>
+<div id="s2">
+<label for="score"><b>score:</b></label>
+<input id="score" readonly>
+</div>
+
+    </div>
+    
+</body>
+<script src="guess.js"></script>
+</html>
